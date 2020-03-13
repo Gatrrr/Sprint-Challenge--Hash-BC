@@ -27,6 +27,7 @@ def reconstruct_trip(tickets, length):
         #loop inserting hashtable then stopping at 'NONE'
         flights.append(destination)
         destination = hash_table_retrieve(hashtable, destination)
+        print(flights)
     return flights
 
 

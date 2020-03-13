@@ -56,6 +56,12 @@ Source I used: TK
  
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
 
+Proof of work is a that code that is recorded in the blocks that requires A LOT of computing power to generate. It allows people using crypto to verify and mutually agree on the state of the blockchain. 
+
+It is impossible to add a valid block without finding the previous proof of work #. You can't manipulate one block bcause the next blocked is signed with a different proof of work #. 
+
+If one person controls >50% of the power, you can control the network? Not 100% on this part. 
+
 ~~~~~
 
 ## Project Set Up

@@ -20,6 +20,7 @@ def get_indices_of_item_weights(weights, length, limit):
         if first != None:
             # Your function will return an instance of an `Answer` tuple that has the following form:
             answer = (zeroth, first)
+            print(answer)
             return answer
         # If first 
         else:
