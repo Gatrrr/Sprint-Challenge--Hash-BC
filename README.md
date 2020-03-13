@@ -42,7 +42,7 @@ Source I used:https://en.wikipedia.org/wiki/Dynamic_array
 
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
 
-Blockchain is a data structure that uses a support system to keep a public ledger of transtions. Created on the foundation of proof, it combats systems like bank ledgers and privatized transtions. Cryptography ensures it's security. 
+Blockchain is a data structure that uses a support system to keep a public ledger of transtions.  Cryptography ensures it's security. 
 
 The blockchain is made up of 5 elements. The index number(Number of the block in the chain), time stamp(time at which the block is created), transactions(monetary transactions that is proofed by the block), Proof (We use proof of work alongside with the hash of the previous block to protect blocks from attacks.), and Previous hash(Hash of all the data in the previous block)
 
