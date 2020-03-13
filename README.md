@@ -22,13 +22,41 @@ This sprint challenge is divided up into three parts:  Hash tables coding, block
 
 ## Interview Questions
 
+
+~~~~~ #1
+
 Explain in detail the workings of a dynamic array:
 * What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
 * What is the worse case scenario if you try to extend the storage size of a dynamic array?
 
+Answer:
+
+Dynamic Array grows when you make an insertion. 
+The runtime complexity to access an array is 0(1) since its pretty instantly when you access it.
+The runtime complexity to add/remove from the front is 0(n) because you have to shift the entire array.
+The runtime complexity to add/remove from the back is 0(1) because there is no need to shift the entire array, just add to the end.
+
+Source I used:https://en.wikipedia.org/wiki/Dynamic_array 
+
+~~~~~ #2
+
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
+
+Blockchain is a data structure that uses a support system to keep a public ledger of transtions. Created on the foundation of proof, it combats systems like bank ledgers and privatized transtions. Cryptography ensures it's security. 
+
+The blockchain is made up of 5 elements. The index number(Number of the block in the chain), time stamp(time at which the block is created), transactions(monetary transactions that is proofed by the block), Proof (We use proof of work alongside with the hash of the previous block to protect blocks from attacks.), and Previous hash(Hash of all the data in the previous block)
+
+The chain is created by storing the hash of the previous block data. THis ensures that any changes to the block will invalidate all future blocks since each will now contain an invalid previous has that effects the next hash.
+
+Data is organized by the first block that contains a hash, the data in the first block is hashed into a hash that is stored in the second block then that is repeated block by block continuously. 
+
+Source I used: TK
+
+~~~~~ #3
  
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
+
+~~~~~
 
 ## Project Set Up
 
